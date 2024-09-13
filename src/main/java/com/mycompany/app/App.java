@@ -11,10 +11,33 @@ public class Main
         String operation = s.next();
         System.out.println("Enter your second number.");
         int second = s.nextInt();
+      //operations  
         if(operation.equals("+"))
         {
             System.out.println("Answer: " + (first + second));
         }
+        
+        if(operation.equals("-"))
+        {
+            System.out.println("Answer: " + (first - second));
+        }
+        
+        if(operation.equals("*"))
+        {
+            System.out.println("Answer: " + (first * second));
+        }
+        
+        if(operation.equals("/"))
+        {
+            System.out.println("Answer: " + (first / second));
+        }
+        
+        if(operation.equals("%"))
+        {
+            System.out.println("Answer: " + (first % second));
+        }
+
+        
         s.close();
     }
 }
